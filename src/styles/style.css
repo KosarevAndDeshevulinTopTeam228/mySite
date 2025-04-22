@@ -3,6 +3,9 @@
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 8px, 16px;
     font-size: 20px;
 }
@@ -18,8 +21,8 @@
 }
 
 .svg-icon{
-    width: 26px;
-    height: 26px;
+    width: 50px;
+    height: 50px;
 }
 
 .icons{
@@ -27,4 +30,53 @@
     align-items: end;
     flex-direction: column;
     gap: 4px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    max-height: 56px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+
+    li {
+        background-color: #ffffff;
+        padding: 4px 12px;
+
+        border-radius: 10px;
+        a {
+            color: #c47e15;
+            text-decoration: none;
+        }
+    }
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+    button {
+        font-size: 10px;
+        color:#c47e15;
+        padding: 8px 16px;
+
+
+        border: none;
+        border-radius: 10px;
+    }
 }
