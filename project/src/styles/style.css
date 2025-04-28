@@ -120,7 +120,7 @@ front-size: 28px;
 
 }
 
-.special-icons{
+.social-icons{
     position: absolute;
     bottom: 60px;
     left: 40px;
@@ -140,7 +140,7 @@ front-size: 28px;
 }
 
 .social-toggle:checked ~ .social-icons {
-    apacity: 1;
+    opacity: 1;
     visibility: visible;
     transform: translateX(-50%) translateY(0);
 }
@@ -157,8 +157,12 @@ front-size: 28px;
 
 
     
-  /* Контейнер слайдера */
-  .slider {
+  
+
+
+}
+/* Контейнер слайдера */
+.slider {
     width: 300px; /* Фиксированная ширина */
     overflow: hidden; /* Скрываем выходящие за границы изображения */
     position: relative;
@@ -209,7 +213,3 @@ input:checked + label {
     background: black;
 }
 
-
-
-
-}
