@@ -54,9 +54,6 @@
     flex-direction: row;
     gap: 20px;
     list-style: none;
-    justify-content: center;
-    align-items: center;
-    
 
     li {
         padding: 4px 12px;
@@ -153,13 +150,7 @@ front-size: 28px;
 }
 .social-icons:hover {
     transform: scale(1.2);
-
-
-
     
-  
-
-
 }
 /* Контейнер слайдера */
 .slider {
@@ -179,6 +170,7 @@ front-size: 28px;
 .slide {
     width: 100%; /* Каждый слайд занимает всю ширину контейнера */
     flex-shrink: 0; /* Запрещаем уменьшение элементов внутри flex-контейнера */
+
 }
 
 /* Убираем отображение радиокнопок, они нужны только для управления */
