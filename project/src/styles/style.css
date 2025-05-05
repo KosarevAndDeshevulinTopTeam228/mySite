@@ -205,3 +205,25 @@ input:checked + label {
     background: black;
 }
 
+
+.aboutus {
+    display: flex;
+    background-image: url(./../../assets/images/background/uchastok-zaozernyy-2282653194-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+    font-size: medium;
+
+}
+
+.image-right-side {
+
+}
