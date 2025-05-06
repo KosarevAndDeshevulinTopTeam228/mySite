@@ -152,6 +152,17 @@ front-size: 28px;
     transform: scale(1.2);
     
 }
+
+
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+
+
 /* Контейнер слайдера */
 .slider {
     width: 300px; /* Фиксированная ширина */
@@ -211,6 +222,7 @@ input:checked + label {
     background-image: url(./../../assets/images/background/uchastok-zaozernyy-2282653194-1.jpg);
     background-position: center;
     background-size: cover;
+    padding: 40px;
 }
 
 
@@ -226,4 +238,40 @@ input:checked + label {
 
 .image-right-side {
 
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+
+.abc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigate {
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        list-style: none;
+    }
+}
+
+
+
+.ruskeala {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.photos-of-ruskeala {
+    border-radius: 50px;
 }
