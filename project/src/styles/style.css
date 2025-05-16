@@ -343,13 +343,7 @@ input:checked + label {
 .the-last-ones {
     display: flex;
     flex-direction: row;
-
-
-    ul {
-        
-        justify-content: center;
-        text-align: center;
-    }
+    justify-content: space-between;
 }
 
 .nav-nav {
